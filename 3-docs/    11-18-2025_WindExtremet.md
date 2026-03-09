@@ -31,5 +31,15 @@ where:
 
 ---
 
+### Visual Evolution
+Below is the monthly evolution of the Wind Extreme index aggregated over France.
+
+**Monthly Wind Extreme Index for France (2000–2024)**
+![Monthly Wind Extreme Index for France](wind.png)
+
+*Figure: Time series of the Wind Extreme indicator (m/s) showing the maximum daily wind speed per month averaged over metropolitan France.*
+
+---
+
 ### Final Indicator
 The final series represents the monthly intensity of extreme wind events at the national scale and is used as a proxy for storm-related physical risk in the economic scenario generator.
