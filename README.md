@@ -1,4 +1,4 @@
-# Economic-Scenario-Generation-under-Physical-Climate-Risks
+# Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
 ##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
