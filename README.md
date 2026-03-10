@@ -1,7 +1,6 @@
 # Economic-Scenario-Generation-under-Physical-Climate-Risks
 
-##Title/ Integrating Physical Climate Risks into Economic Scenario Generators: A Climate-Conditioned Approach for Insurance
-
+##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
 
 This project develops a climate-conditioned Economic Scenario Generator (GSE) for insurance applications.
