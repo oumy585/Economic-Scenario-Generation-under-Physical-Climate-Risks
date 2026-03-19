@@ -5,7 +5,7 @@ library(dplyr)
 library(lubridate)
 library(xts)
 library(writexl)
-
+#"C:/Users/OumyDIONE/Downloads/CAC40 Index.xlsx"
 CAC <- read_excel(choose.files())
 
 CAC <- CAC %>%
