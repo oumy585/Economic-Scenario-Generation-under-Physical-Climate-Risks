@@ -11,13 +11,13 @@ The exploration of the parameter space is performed using Bayesian optimization.
 After convergence of the optimization procedure, the best parameter vector obtained is
 
 $$
-(\text{lags}, \text{nb\_hidden}, \log_{10}\lambda_1, \log_{10}\lambda_2) = (4.63,\ 19.57,\ 0.31,\ 0.85),
+(lags, nb\_hidden, \log_{10} \lambda_1, \log_{10} \lambda_2) = (4.63, 19.57, 0.31, 0.85),
 $$
 
 which corresponds approximately to
 
 $$
-\text{lags} \approx 5, \quad \text{nb\_hidden} \approx 20, \quad \lambda_1 \approx 2.05, \quad \lambda_2 \approx 7.1.
+lags \approx 5, \quad nb\_hidden \approx 20, \quad \lambda_1 \approx 2.05, \quad \lambda_2 \approx 7.1.
 $$
 
 This configuration yields the lowest Winkler score among all tested parameter combinations, indicating that it provides the best compromise between predictive accuracy and reliability of the simulated prediction intervals.
@@ -45,3 +45,21 @@ Table 1 reports the results for the five variables included in the generator: CA
 | Long rate | 0.98 | 1.14 | 3.29 |
 
 *Table 1: Out-of-sample validation results.*
+
+---
+
+## Visual Evolution of Indicators
+
+### Wind Extreme Index
+Below is the monthly evolution of the Wind Extreme index aggregated over France.
+
+**Monthly Wind Extreme Index for France (2000–2024)**
+![Monthly Wind Extreme Index for France](9-plots/WindExtreme_plot.png)
+*Figure: Time series of the Wind Extreme indicator (m/s).*
+
+### Drought Indicator (SPEI-6)
+Below is the monthly evolution of the SPEI-6 index aggregated over France.
+
+**Monthly SPEI-6 for France (2000–2024)**
+![Monthly SPEI-6 for France](9-plots/SPEI_plot.png)
+*Figure: Time series of the monthly SPEI-6 indicator. Negative values indicate drought conditions.*
