@@ -11,13 +11,13 @@ The exploration of the parameter space is performed using Bayesian optimization.
 After convergence of the optimization procedure, the best parameter vector obtained is
 
 $$
-(lags, nb\_hidden, \log_{10} \lambda_1, \log_{10} \lambda_2) = (4.63, 19.57, 0.31, 0.85),
+(\text{lags}, \text{nb\_hidden}, \log_{10}\lambda_1, \log_{10}\lambda_2) = (4.63,\ 19.57,\ 0.31,\ 0.85),
 $$
 
 which corresponds approximately to
 
 $$
-lags \approx 5, \quad nb\_hidden \approx 20, \quad \lambda_1 \approx 2.05, \quad \lambda_2 \approx 7.1.
+\text{lags} \approx 5, \quad \text{nb\_hidden} \approx 20, \quad \lambda_1 \approx 2.05, \quad \lambda_2 \approx 7.1.
 $$
 
 This configuration yields the lowest Winkler score among all tested parameter combinations, indicating that it provides the best compromise between predictive accuracy and reliability of the simulated prediction intervals.
@@ -25,8 +25,6 @@ This configuration yields the lowest Winkler score among all tested parameter co
 The optimization results show that the model benefits from a nonlinear representation with a sufficiently large number of hidden nodes, while moderate regularization is required to maintain stability. The selected parameter values therefore correspond to a specification that balances flexibility and robustness, which is essential for generating realistic economic scenarios.
 
 The final set of parameters obtained through Bayesian optimization is retained for the estimation of the model and for the subsequent generation of economic scenarios.
-
----
 
 ## Out-of-sample validation
 
@@ -44,22 +42,4 @@ Table 1 reports the results for the five variables included in the generator: CA
 | Short rate | 1.05 | 1.38 | 4.52 |
 | Long rate | 0.98 | 1.14 | 3.29 |
 
-*Table 1: Out-of-sample validation results.*
-
----
-
-## Visual Evolution of Indicators
-
-### Wind Extreme Index
-Below is the monthly evolution of the Wind Extreme index aggregated over France.
-
-**Monthly Wind Extreme Index for France (2000–2024)**
-![Monthly Wind Extreme Index for France](9-plots/WindExtreme_plot.png)
-*Figure: Time series of the Wind Extreme indicator (m/s).*
-
-### Drought Indicator (SPEI-6)
-Below is the monthly evolution of the SPEI-6 index aggregated over France.
-
-**Monthly SPEI-6 for France (2000–2024)**
-![Monthly SPEI-6 for France](9-plots/SPEI_plot.png)
-*Figure: Time series of the monthly SPEI-6 indicator. Negative values indicate drought conditions.*
+*Table 1: Out-of-sample validation results*
