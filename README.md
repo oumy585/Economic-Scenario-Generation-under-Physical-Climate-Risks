@@ -1,4 +1,4 @@
-# Climate-Aware Economic Scenario Generation: Integrating Physical Climate Risks and Assessing Extreme Risks for ORSA Applications
+# The Misrepresentation of Extreme Losses in Economic Scenario Generators under Climate Risk: Implications for ORSA
 
 ##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
