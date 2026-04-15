@@ -1,4 +1,4 @@
-# The Misrepresentation of Extreme Losses in Economic Scenario Generators under Climate Risk: Implications for ORSA
+# Climate Risk Matters in the Tail: Evidence and Implications for Economic Scenario Generation
 
 ##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
