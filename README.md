@@ -1,5 +1,4 @@
-# Climate Risk Matters in the Tail: Evidence and Implications for Economic Scenario Generation in ORSA
-
+# Climate Risk Matters in the Tail: Evidence and Implications for Economic Scenario Generation in ORSA Applications
 ##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
 
