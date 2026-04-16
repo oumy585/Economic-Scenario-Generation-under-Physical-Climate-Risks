@@ -12,4 +12,4 @@ This approach preserves the baseline dynamics and the frequency of exceedances w
 The proposed framework provides a tractable and empirically grounded method to integrate climate risk into economic scenario generation, with direct implications for ORSA exercises and, more broadly, for the assessment of solvency risk in insurance.
 
 
-# Keywords : Climate Risk, Tail Risk, Economic Scenario Generation, Extreme Value Theory, ORSA, Capital Requirements
+# Keywords : Climate Risk, Tail Risk, Economic Scenario Generation, Extreme Value Theory,Conditional Tail Modeling, ORSA, Capital Requirements
