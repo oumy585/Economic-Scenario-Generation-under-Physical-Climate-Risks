@@ -2,12 +2,12 @@
 ##Title/ Integrating Physical Climate Risk into Economic Scenario Generators for ORSA Applications
 
 
-This project develops a climate-conditioned Economic Scenario Generator (GSE) for insurance applications.
+This project develops a climate-aware Economic Scenario Generator (ESG) for insurance applications, with a focus on the impact of physical climate risks on the tail of loss distributions.
 
-The objective is to study whether integrating physical climate risks into economic scenario generation modifies the distribution of macro-financial scenarios used for risk management and solvency analysis.
+The main objective is to investigate how climate conditions affect macro-financial risk, distinguishing between their impact on central dynamics and on extreme outcomes. Empirical analysis shows that climate variables do not significantly influence the central dynamics of macro-financial variables, but have a strong effect on the severity of extreme losses.
 
-The model combines macro-financial variables with climate indicators representing key physical risks such as drought, extreme precipitation, heatwaves and wind extremes.
+Based on this finding, the proposed framework adopts a hybrid approach. Macroeconomic scenarios are generated using a non-parametric model based on Random Vector Functional Link (RVFL) networks, without directly incorporating climate variables into the central dynamics. Climate information is instead introduced through a tail-adjustment mechanism, which modifies losses beyond a given threshold.
 
-A non-parametric approach based on Random Vector Functional Link (RVFL) networks is used to generate economic scenarios. The results are compared with a standard economic scenario generator that does not include climate information.
+This approach allows for the amplification of extreme losses under adverse climate conditions, while preserving the coherence of simulated economic trajectories.
 
-The framework is applied to a simplified insurance portfolio in order to evaluate the impact on risk measures used in ORSA-type analyses.
+The framework is applied to a stylized insurance balance sheet to assess the impact on prudential risk measures such as Value-at-Risk and Expected Shortfall, in an ORSA-type setting.
